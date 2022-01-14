@@ -1,0 +1,7 @@
+.about_content {
+    display: flex;
+    /* background-color: DodgerBlue; */
+  }
+  #video1{
+    position:relative;
+  }

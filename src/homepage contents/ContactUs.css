@@ -1,0 +1,49 @@
+
+  #email{
+    size: 30px;
+    height: 20px;
+  }
+  .heading-container{
+      height: 130px;
+      background-image: url('./videooo/Contactus_image.jpg');
+       background-size: 100% 100px; 
+  }
+  .heading-container>h1{
+      justify-content: center;
+      text-align: center;
+      position: relative;
+      top: 50px;
+      font: size 100px;
+      font-weight: 500;
+  }
+
+  /* .contact_heading{
+      justify-content: center;
+      text-align: center;
+      font-size: 90px;
+      font-weight: 400;
+      color: rgb(106, 104, 104);
+      position: relative;
+      top: -100px;
+  } */
+  .contact_content {
+    display: flex;
+    justify-content: space-around
+    /* background-color: DodgerBlue; */
+  }
+  .contact-card-container {
+    width: 40%;
+    margin: 0 10px 0 0;
+    padding: 1.5% 0;
+    background: #fff;
+    box-shadow: 0 0 24px rgb(0 0 0 / 25%);
+    border-radius: 26px;
+}
+.request-card-container {
+    width: 50%;
+    margin: 0 10px 0 0;
+    padding: 1.5% 0;
+    background: #fff;
+    box-shadow: 0 0 24px rgb(0 0 0 / 25%);
+    border-radius: 26px;
+}

@@ -3,6 +3,10 @@
     size: 30px;
     height: 20px;
   }
+  #contactcall_image{
+    size: 30px;
+    height: 20px;
+  }
   .heading-container{
       height: 130px;
       background-image: url('./videooo/Contactus_image.jpg');
@@ -32,14 +36,64 @@
     /* background-color: DodgerBlue; */
   }
   .contact-card-container {
-    width: 40%;
+    height:300px;
+    width: 35%;
     margin: 0 10px 0 0;
     padding: 1.5% 0;
     background: #fff;
     box-shadow: 0 0 24px rgb(0 0 0 / 25%);
     border-radius: 26px;
 }
+.row-1{
+  height: 80px;
+  font-weight: 300;
+  font-size: 40px;
+  justify-content: center;
+  text-align: center;
+}
+.row-2{
+  margin: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: center;
+  text-align: center;
+}
+.row-3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+.row-3-col-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 10px;
+}
+.row-3-col-1>span{
+  text-align: center;
+}
+.row-3-col-2>span{
+  text-align: center;
+  
+}
+.row-3-col-1>img{
+  width:60px;
+  height: 60px;
+
+}
+ .row-3-col-2>img{
+  width:60px;
+  height: 60px;
+}
+.row-3-col-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 10px;
+}
 .request-card-container {
+   height:300px;
     width: 50%;
     margin: 0 10px 0 0;
     padding: 1.5% 0;

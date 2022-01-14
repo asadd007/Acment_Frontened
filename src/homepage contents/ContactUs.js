@@ -7,6 +7,7 @@ import '../css/HomePage.css';
 import email from './videooo/email.png';
 import logo_transparent from '../images/acment_logo_transparent.png';
 import contactus_image from './videooo/Contactus_image.jpg';
+import contactcall_image from './videooo/contact_image.png';
 // import { IconName } from "react-icons/fa";
 function ContactUs () {
   return (
@@ -53,29 +54,34 @@ function ContactUs () {
         
        <div className='contact-card-container'>
        <div className='row-1'>
-         <h6>Contact Us</h6>
+         Contact Us
          <br></br>
        </div>
         <div className='row-2'>
-              Have any queries? Facing any issues?Get assistance.
+              Have any queries? Facing any issues?  
+              <br></br>Get assistance.
         </div>
         <div className='row-3'>
               <div className='row-3-col-1'>
               <img src={email} height="30px" />
+              <span>Mail Us</span>
+              <span>acment.mgt@gmail.com</span>
               </div>
               <div className='row-3-col-2'>
-
+                 <img src={contactcall_image}/>
+                 <span>Contact Us</span>
+              <span>+91 9528127515</span>
                </div>
          </div>
         </div>
         <div className='request-card-container'>
-         <div className='row-1'>
+         <div className='request-row-1'>
           
          </div>
-         <div className='row-2'>
+         <div className='request-row-2'>
 
          </div>
-         <div className='row-3'>
+         <div className='request-row-3'>
 
          </div>
         </div>
